@@ -1,0 +1,31 @@
+.listItem {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+}
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px 10px;
+}
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px;
+}
+.number {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px;
+}
+.button {
+  height: 40px;
+  width: 90px;
+  border-radius: 4px;
+  margin: 35px 25px;
+  font-size: 20px;
+}

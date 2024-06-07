@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.message {
+  margin: 15px;
+  display: block;
+  background-color: grey;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+.button {
+  margin: 10px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  border-color: rgb(109, 113, 116);
+  font-size: 16px;
+}

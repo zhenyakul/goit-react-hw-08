@@ -1,0 +1,16 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  display: block;
+  background-color: grey;
+  padding: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+.activeLink {
+  background-color: rgb(25, 29, 53);
+}
